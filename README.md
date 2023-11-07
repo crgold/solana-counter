@@ -1,6 +1,3 @@
-Certainly! Here's the README content in markdown format:
-
-```markdown
 # Counter Program
 
 This is a Rust-based smart contract developed using the Solana blockchain framework with Anchor. The Counter Program demonstrates the basic functionalities of creating, incrementing, and decrementing a counter on the Solana blockchain.
