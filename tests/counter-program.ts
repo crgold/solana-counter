@@ -37,7 +37,7 @@ it("Increament the Counter", async () => {
   console.log("New counter value: ", account.count.toNumber())
 });
 
-it("Increament the Counter", async () => {
+it("Decrement the Counter", async () => {
   const tx = await program.methods.decrement()
   .accounts({
     counter: counter.publicKey,
