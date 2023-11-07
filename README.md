@@ -104,4 +104,3 @@ To customize the tests for your specific setup or to add more test cases, refer 
 ## License
 
 This Counter Program is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
