@@ -76,5 +76,3 @@ The Counter Program consists of the following components:
 
 This Counter Program is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-You can use this markdown content in your README file. Just replace `<program-id>` and `<counter_account>` with your actual program ID and counter account addresses, and customize the installation and usage instructions according to your specific setup and needs.
