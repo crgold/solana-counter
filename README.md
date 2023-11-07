@@ -7,6 +7,7 @@ This is a Rust-based smart contract developed using the Solana blockchain framew
 - [Installation](#installation)
 - [Usage](#usage)
 - [Program Structure](#program-structure)
+- [Testing](#testing)
 - [License](#license)
 
 ## Installation
@@ -71,6 +72,34 @@ The Counter Program consists of the following components:
 - `Counter`: An Anchor `Account` structure that stores the counter's authority and count.
 - `Increment`: An Anchor `Accounts` structure for incrementing the counter.
 - `Decrement`: An Anchor `Accounts` structure for decrementing the counter.
+
+## Testing
+
+The Counter Program includes a suite of tests to ensure its functionality. These tests are written using the Anchor framework and Solana tools. To run the tests, follow these steps:
+
+1. Install the necessary dependencies if you haven't already:
+
+   ```sh
+   npm install @coral-xyz/anchor @solana/web3.js
+   ```
+
+2. Run the tests using the following command:
+
+   ```sh
+   anchor test
+   ```
+
+The provided test suite covers the following scenarios:
+
+- Creating a Counter account.
+- Incrementing the Counter.
+- Decrementing the Counter.
+
+The tests ensure that the Counter Program's functions work as expected and validate the smart contract's behavior on the Solana blockchain.
+
+To customize the tests for your specific setup or to add more test cases, refer to the test file located at `<your-repo>/tests/counter-program.test.ts`.
+
+**Note:** Make sure you have the required development environment and credentials set up for running the tests successfully.
 
 ## License
 
